@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="@string/pref_display_name_label"
+        android:textColor="@color/primaryColorDark"
+        android:key="@string/pref_display_name_key"
+        android:defaultValue="@string/pref_display_name_default"
+        android:inputType="textCapWords"
+        android:singleLine="true"/>
+
+    <ListPreference
+        android:title="@string/pref_base_currency_label"
+        android:key="@string/pref_base_currency_key"
+        android:defaultValue="@string/pref_USD_value"
+        android:entries="@array/pref_currency_options"
+        android:entryValues="@array/pref_currency_types"/>
+
+   <ListPreference
+        android:title="@string/pref_decimals_label"
+        android:key="@string/pref_decimals_key"
+        android:defaultValue="@string/pref_decimals_4_value"
+        android:entries="@array/pref_decimals_options"
+        android:entryValues="@array/pref_decimals"/>
+
+</PreferenceScreen>

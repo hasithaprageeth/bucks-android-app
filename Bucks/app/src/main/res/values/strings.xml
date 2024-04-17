@@ -1,0 +1,364 @@
+<resources>
+    <string name="app_name">Bucks</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh" translatable = "false">Refresh</string>
+    <string name="title_activity_currency_detail">Rate Changes</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Label for the display name preference [CHAR LIMIT=30] -->
+    <string name="pref_display_name_label">Display Name</string>
+
+    <!-- Key name for storing display name in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_display_name_key" translatable="false">name</string>
+
+    <!-- Default name for display name preference [CHAR LIMIT=NONE] -->
+    <string name="pref_display_name_default">Your name</string>
+
+    <string name="pref_base_currency_label">Base currency</string>
+    <string name="pref_base_currency_key" translatable="false">base</string>
+
+    <!-- Currency Types Options-->
+    <string name="pref_AFN_lable">Afghan Afghani</string>
+    <string name="pref_ALB_lable">Albanian Lek</string>
+    <string name="pref_DZD_lable">Algerian Dinar</string>
+    <string name="pref_AOA_lable">Angolan Kwanza</string>
+    <string name="pref_ARS_lable">Argentine Peso</string>
+    <string name="pref_AMD_lable">Armenian Dram</string>
+    <string name="pref_AWG_lable">Aruban Florin</string>
+    <string name="pref_AUD_lable">Australian Dollar</string>
+    <string name="pref_AZN_lable">Azerbaijani Manat</string>
+    <string name="pref_BSD_lable">Bahamian Dollar</string>
+    <string name="pref_BHD_lable">Bahraini Dinar</string>
+    <string name="pref_BDT_lable">Bangladeshi Taka</string>
+    <string name="pref_BBD_lable">Barbadian Dollar</string>
+    <string name="pref_BYR_lable">Belarusian Ruble</string>
+    <string name="pref_BZD_lable">Belize Dollar</string>
+    <string name="pref_BMD_lable">Bermudan Dollar</string>
+    <string name="pref_BTN_lable">Bhutanese Ngultrum</string>
+    <string name="pref_BOB_lable">Bolivian Boliviano</string>
+    <string name="pref_BAM_lable">Bosnia-Herzegovina Convertible Mark</string>
+    <string name="pref_BWP_lable">Botswanan Pula</string>
+    <string name="pref_BRL_lable">Brazilian Real</string>
+    <string name="pref_GBP_lable">British Pound Sterling</string>
+    <string name="pref_BND_lable">Brunei Dollar</string>
+    <string name="pref_BGN_lable">Bulgarian Lev</string>
+    <string name="pref_BIF_lable">Burundian Franc</string>
+    <string name="pref_KHR_lable">Cambodian Riel</string>
+    <string name="pref_CAD_lable">Canadian Dollar</string>
+    <string name="pref_CVE_lable">Cape Verdean Escudo</string>
+    <string name="pref_XAF_lable">CFA Franc BEAC</string>
+    <string name="pref_XOF_lable">CFA Franc BCEAO</string>
+    <string name="pref_XPF_lable">CFP Franc</string>
+    <string name="pref_CLP_lable">Chilean Peso</string>
+    <string name="pref_CLF_lable">Chilean Unit of Account (UF)</string>
+    <string name="pref_CNY_lable">Chinese Yuan</string>
+    <string name="pref_COP_lable">Colombian Peso</string>
+    <string name="pref_KMF_lable">Comorian Franc</string>
+    <string name="pref_CDF_lable">Congolese Franc</string>
+    <string name="pref_CRC_lable">Costa Rican Colon</string>
+    <string name="pref_HRK_lable">Croatian Kuna</string>
+    <string name="pref_CUP_lable">Cuban Peso</string>
+    <string name="pref_CZK_lable">Czech Republic Koruna</string>
+    <string name="pref_DKK_lable">Danish Krone</string>
+    <string name="pref_DJF_lable">Djiboutian Franc</string>
+    <string name="pref_DOP_lable">Dominican Peso</string>
+    <string name="pref_XCD_lable">East Caribbean Dollar</string>
+    <string name="pref_EGP_lable">Egyptian Pound</string>
+    <string name="pref_ETB_lable">Ethiopian Birr</string>
+    <string name="pref_EUR_lable">Euro</string>
+    <string name="pref_FKP_lable">Falkland Islands Pound</string>
+    <string name="pref_FJD_lable">Fijian Dollar</string>
+    <string name="pref_GMD_lable">Gambian Dalasi</string>
+    <string name="pref_GEL_lable">Georgian Lari</string>
+    <string name="pref_GHS_lable">Ghanaian Cedi</string>
+    <string name="pref_GIP_lable">Gibraltar Pound</string>
+    <string name="pref_GTQ_lable">Guatemalan Quetzal</string>
+    <string name="pref_GNF_lable">Guinean Franc</string>
+    <string name="pref_GYD_lable">Guyanaese Dollar</string>
+    <string name="pref_HTG_lable">Haitian Gourde</string>
+    <string name="pref_HKD_lable">Hong Kong Dollar</string>
+    <string name="pref_HNL_lable">Honduran Lempira</string>
+    <string name="pref_HUF_lable">Hungarian Forint</string>
+    <string name="pref_ISK_lable">Icelandic Krona</string>
+    <string name="pref_INR_lable">Indian Rupee</string>
+    <string name="pref_IDR_lable">Indonesian Rupiah</string>
+    <string name="pref_IRR_lable">Iranian Rial</string>
+    <string name="pref_IQD_lable">Iraqi Dinar</string>
+    <string name="pref_IEP_lable">Irish Pound</string>
+    <string name="pref_ILS_lable">Israeli New Sheqel</string>
+    <string name="pref_JMD_lable">Jamaican Dollar</string>
+    <string name="pref_JPY_lable">Japanese Yen</string>
+    <string name="pref_JOD_lable">Jordanian Dinar</string>
+    <string name="pref_KZT_lable">Kazakhstani Tenge</string>
+    <string name="pref_KES_lable">Kenyan Shilling</string>
+    <string name="pref_KWD_lable">Kuwaiti Dinar</string>
+    <string name="pref_KGS_lable">Kyrgystani Som</string>
+    <string name="pref_LAK_lable">Laotian Kip</string>
+    <string name="pref_LVL_lable">Latvian Lats</string>
+    <string name="pref_LBP_lable">Lebanese Pound</string>
+    <string name="pref_LSL_lable">Lesotho Loti</string>
+    <string name="pref_LRD_lable">Liberian Dollar</string>
+    <string name="pref_LYD_lable">Libyan Dinar</string>
+    <string name="pref_LTL_lable">Lithuanian Litas</string>
+    <string name="pref_MOP_lable">Macanese Pataca</string>
+    <string name="pref_MKD_lable">Macedonian Denar</string>
+    <string name="pref_MGA_lable">Malagasy Ariary</string>
+    <string name="pref_MWK_lable">Malawian Kwacha</string>
+    <string name="pref_MYR_lable">Malaysian Ringgit</string>
+    <string name="pref_MVR_lable">Maldivian Rufiyaa</string>
+    <string name="pref_MRO_lable">Mauritanian Ouguiya</string>
+    <string name="pref_MUR_lable">Mauritian Rupee</string>
+    <string name="pref_MXN_lable">Mexican Peso</string>
+    <string name="pref_MDL_lable">Moldovan Leu</string>
+    <string name="pref_MNT_lable">Mongolian Tugrik</string>
+    <string name="pref_MAD_lable">Moroccan Dirham</string>
+    <string name="pref_MZN_lable">Mozambican Metical</string>
+    <string name="pref_MMK_lable">Myanma Kyat</string>
+    <string name="pref_NAD_lable">Namibian Dollar</string>
+    <string name="pref_NPR_lable">Nepalese Rupee</string>
+    <string name="pref_ANG_lable">Netherlands Antillean Guilder</string>
+    <string name="pref_TWD_lable">New Taiwan Dollar</string>
+    <string name="pref_NZD_lable">New Zealand Dollar</string>
+    <string name="pref_NIO_lable">Nicaraguan Cordoba</string>
+    <string name="pref_NGN_lable">Nigerian Naira</string>
+    <string name="pref_KPW_lable">North Korean Won</string>
+    <string name="pref_NOK_lable">Norwegian Krone</string>
+    <string name="pref_OMR_lable">Omani Rial</string>
+    <string name="pref_PKR_lable">Pakistani Rupee</string>
+    <string name="pref_PAB_lable">Panamanian Balboa</string>
+    <string name="pref_PGK_lable">Papua New Guinean Kina</string>
+    <string name="pref_PYG_lable">Paraguayan Guarani</string>
+    <string name="pref_PEN_lable">Peruvian Nuevo Sol</string>
+    <string name="pref_PHP_lable">Philippine Peso</string>
+    <string name="pref_PLN_lable">Polish Zloty</string>
+    <string name="pref_QAR_lable">Qatari Rial</string>
+    <string name="pref_RON_lable">Romanian Leu</string>
+    <string name="pref_RUB_lable">Russian Ruble</string>
+    <string name="pref_RWF_lable">Rwandan Franc</string>
+    <string name="pref_SHP_lable">Saint Helena Pound</string>
+    <string name="pref_SVC_lable">Salvadoran Colon</string>
+    <string name="pref_WST_lable">Samoan Tala</string>
+    <string name="pref_STD_lable">Sao Tomean and Principe Dobra</string>
+    <string name="pref_SAR_lable">Saudi Riyal</string>
+    <string name="pref_RSD_lable">Serbian Dinar</string>
+    <string name="pref_SCR_lable">Seychellois Rupee</string>
+    <string name="pref_SLL_lable">Sierra Leonean Leone</string>
+    <string name="pref_SGD_lable">Singapore Dollar</string>
+    <string name="pref_SBD_lable">Solomon Islands Dollar</string>
+    <string name="pref_SOS_lable">Somali Shilling</string>
+    <string name="pref_ZAR_lable">South African Rand</string>
+    <string name="pref_KRW_lable">South Korean Won</string>
+    <string name="pref_XDR_lable">Special Drawing Rights</string>
+    <string name="pref_LKR_lable">Sri Lankan Rupee</string>
+    <string name="pref_SDG_lable">Sudanese Pound</string>
+    <string name="pref_SRD_lable">Surinamese Dollar</string>
+    <string name="pref_SZL_lable">Swazi Lilangeni</string>
+    <string name="pref_SEK_lable">Swedish Krona</string>
+    <string name="pref_CHF_lable">Swiss Franc</string>
+    <string name="pref_SYP_lable">Syrian Pound</string>
+    <string name="pref_TMT_lable">Tajikistani Somoni</string>
+    <string name="pref_TZS_lable">Tanzanian Shilling</string>
+    <string name="pref_THB_lable">Thai Baht</string>
+    <string name="pref_TOP_lable">Tongan Paanga</string>
+    <string name="pref_TTD_lable">Trinidad and Tobago Dollar</string>
+    <string name="pref_TND_lable">Tunisian Dinar</string>
+    <string name="pref_TRY_lable">Turkish Lira</string>
+    <string name="pref_UGX_lable">Ugandan Shilling</string>
+    <string name="pref_UAH_lable">Ukrainian Hryvnia</string>
+    <string name="pref_AED_lable">United Arab Emirates Dirham</string>
+    <string name="pref_USD_lable">United States Dollar</string>
+    <string name="pref_UYU_lable">Uruguayan Peso</string>
+    <string name="pref_UZS_lable">Uzbekistan Som</string>
+    <string name="pref_VUV_lable">Vanuatu Vatu</string>
+    <string name="pref_VEF_lable">Venezuelan Bolivar</string>
+    <string name="pref_VND_lable">Vietnamese Dong</string>
+    <string name="pref_YER_lable">Yemeni Rial</string>
+    <string name="pref_ZMK_lable">Zambian Kwacha</string>
+    <string name="pref_ZWL_lable">Zimbabwean Dollar</string>
+
+
+    <!-- Currency Types Values-->
+    <string name="pref_AFN_value" translatable="false">AFN</string>
+    <string name="pref_ALB_value" translatable="false">ALB</string>
+    <string name="pref_DZD_value" translatable="false">DZD</string>
+    <string name="pref_AOA_value" translatable="false">AOA</string>
+    <string name="pref_ARS_value" translatable="false">ARS</string>
+    <string name="pref_AMD_value" translatable="false">AMD</string>
+    <string name="pref_AWG_value" translatable="false">AWG</string>
+    <string name="pref_AUD_value" translatable="false">AUD</string>
+    <string name="pref_AZN_value" translatable="false">AZN</string>
+    <string name="pref_BSD_value" translatable="false">BSD</string>
+    <string name="pref_BHD_value" translatable="false">BHD</string>
+    <string name="pref_BDT_value" translatable="false">BDT</string>
+    <string name="pref_BBD_value" translatable="false">BBD</string>
+    <string name="pref_BYR_value" translatable="false">BYR</string>
+    <string name="pref_BZD_value" translatable="false">BZD</string>
+    <string name="pref_BMD_value" translatable="false">BMD</string>
+    <string name="pref_BTN_value" translatable="false">BTN</string>
+    <string name="pref_BOB_value" translatable="false">BOB</string>
+    <string name="pref_BAM_value" translatable="false">BAM</string>
+    <string name="pref_BWP_value" translatable="false">BWP</string>
+    <string name="pref_BRL_value" translatable="false">BRL</string>
+    <string name="pref_GBP_value" translatable="false">GBP</string>
+    <string name="pref_BND_value" translatable="false">BND</string>
+    <string name="pref_BGN_value" translatable="false">BGN</string>
+    <string name="pref_BIF_value" translatable="false">BIF</string>
+    <string name="pref_KHR_value" translatable="false">KHR</string>
+    <string name="pref_CAD_value" translatable="false">CAD</string>
+    <string name="pref_CVE_value" translatable="false">CVE</string>
+    <string name="pref_XAF_value" translatable="false">XFA</string>
+    <string name="pref_XOF_value" translatable="false">XOF</string>
+    <string name="pref_XPF_value" translatable="false">XPF</string>
+    <string name="pref_CLP_value" translatable="false">CLP</string>
+    <string name="pref_CLF_value" translatable="false">CLF</string>
+    <string name="pref_CNY_value" translatable="false">CNY</string>
+    <string name="pref_COP_value" translatable="false">COP</string>
+    <string name="pref_KMF_value" translatable="false">KMF</string>
+    <string name="pref_CDF_value" translatable="false">CDF</string>
+    <string name="pref_CRC_value" translatable="false">CRC</string>
+    <string name="pref_HRK_value" translatable="false">HRK</string>
+    <string name="pref_CUP_value" translatable="false">CUP</string>
+    <string name="pref_CZK_value" translatable="false">CZK</string>
+    <string name="pref_DKK_value" translatable="false">DKK</string>
+    <string name="pref_DJF_value" translatable="false">DJF</string>
+    <string name="pref_DOP_value" translatable="false">DOP</string>
+    <string name="pref_XCD_value" translatable="false">XCD</string>
+    <string name="pref_EGP_value" translatable="false">EGP</string>
+    <string name="pref_ETB_value" translatable="false">ETB</string>
+    <string name="pref_EUR_value" translatable="false">EUR</string>
+    <string name="pref_FKP_value" translatable="false">FKP</string>
+    <string name="pref_FJD_value" translatable="false">FJD</string>
+    <string name="pref_GMD_value" translatable="false">GMD</string>
+    <string name="pref_GEL_value" translatable="false">GEL</string>
+    <string name="pref_GHS_value" translatable="false">GHS</string>
+    <string name="pref_GIP_value" translatable="false">GIP</string>
+    <string name="pref_GTQ_value" translatable="false">GTQ</string>
+    <string name="pref_GNF_value" translatable="false">GNF</string>
+    <string name="pref_GYD_value" translatable="false">GYD</string>
+    <string name="pref_HTG_value" translatable="false">HTG</string>
+    <string name="pref_HKD_value" translatable="false">HKD</string>
+    <string name="pref_HNL_value" translatable="false">HNL</string>
+    <string name="pref_HUF_value" translatable="false">HUF</string>
+    <string name="pref_ISK_value" translatable="false">ISK</string>
+    <string name="pref_INR_value" translatable="false">INR</string>
+    <string name="pref_IDR_value" translatable="false">IDR</string>
+    <string name="pref_IRR_value" translatable="false">IRR</string>
+    <string name="pref_IQD_value" translatable="false">IQD</string>
+    <string name="pref_IEP_value" translatable="false">IEP</string>
+    <string name="pref_ILS_value" translatable="false">ILS</string>
+    <string name="pref_JMD_value" translatable="false">JMD</string>
+    <string name="pref_JPY_value" translatable="false">JPY</string>
+    <string name="pref_JOD_value" translatable="false">JOD</string>
+    <string name="pref_KZT_value" translatable="false">KZT</string>
+    <string name="pref_KES_value" translatable="false">KES</string>
+    <string name="pref_KWD_value" translatable="false">KWD</string>
+    <string name="pref_KGS_value" translatable="false">KGS</string>
+    <string name="pref_LAK_value" translatable="false">LAK</string>
+    <string name="pref_LVL_value" translatable="false">LVL</string>
+    <string name="pref_LBP_value" translatable="false">LBP</string>
+    <string name="pref_LSL_value" translatable="false">LSL</string>
+    <string name="pref_LRD_value" translatable="false">LRD</string>
+    <string name="pref_LYD_value" translatable="false">LYD</string>
+    <string name="pref_LTL_value" translatable="false">LTL</string>
+    <string name="pref_MOP_value" translatable="false">MOP</string>
+    <string name="pref_MKD_value" translatable="false">MKD</string>
+    <string name="pref_MGA_value" translatable="false">MGA</string>
+    <string name="pref_MWK_value" translatable="false">MWK</string>
+    <string name="pref_MYR_value" translatable="false">MYR</string>
+    <string name="pref_MVR_value" translatable="false">MVR</string>
+    <string name="pref_MRO_value" translatable="false">MRO</string>
+    <string name="pref_MUR_value" translatable="false">MUR</string>
+    <string name="pref_MXN_value" translatable="false">MXN</string>
+    <string name="pref_MDL_value" translatable="false">MDL</string>
+    <string name="pref_MNT_value" translatable="false">MNT</string>
+    <string name="pref_MAD_value" translatable="false">MAD</string>
+    <string name="pref_MZN_value" translatable="false">MZN</string>
+    <string name="pref_MMK_value" translatable="false">MMK</string>
+    <string name="pref_NAD_value" translatable="false">NAD</string>
+    <string name="pref_NPR_value" translatable="false">NPR</string>
+    <string name="pref_ANG_value" translatable="false">ANG</string>
+    <string name="pref_TWD_value" translatable="false">TWD</string>
+    <string name="pref_NZD_value" translatable="false">NZD</string>
+    <string name="pref_NIO_value" translatable="false">NIO</string>
+    <string name="pref_NGN_value" translatable="false">NGN</string>
+    <string name="pref_KPW_value" translatable="false">KPW</string>
+    <string name="pref_NOK_value" translatable="false">NOK</string>
+    <string name="pref_OMR_value" translatable="false">OMR</string>
+    <string name="pref_PKR_value" translatable="false">PKR</string>
+    <string name="pref_PAB_value" translatable="false">PAB</string>
+    <string name="pref_PGK_value" translatable="false">PGK</string>
+    <string name="pref_PYG_value" translatable="false">PYG</string>
+    <string name="pref_PEN_value" translatable="false">PEN</string>
+    <string name="pref_PHP_value" translatable="false">PHP</string>
+    <string name="pref_PLN_value" translatable="false">PLN</string>
+    <string name="pref_QAR_value" translatable="false">QAR</string>
+    <string name="pref_RON_value" translatable="false">RON</string>
+    <string name="pref_RUB_value" translatable="false">RUB</string>
+    <string name="pref_RWF_value" translatable="false">RWF</string>
+    <string name="pref_SHP_value" translatable="false">SHP</string>
+    <string name="pref_SVC_value" translatable="false">SVC</string>
+    <string name="pref_WST_value" translatable="false">WST</string>
+    <string name="pref_STD_value" translatable="false">STD</string>
+    <string name="pref_SAR_value" translatable="false">SAR</string>
+    <string name="pref_RSD_value" translatable="false">RSD</string>
+    <string name="pref_SCR_value" translatable="false">SCR</string>
+    <string name="pref_SLL_value" translatable="false">SLL</string>
+    <string name="pref_SGD_value" translatable="false">SGD</string>
+    <string name="pref_SBD_value" translatable="false">SBD</string>
+    <string name="pref_SOS_value" translatable="false">SOS</string>
+    <string name="pref_ZAR_value" translatable="false">ZAR</string>
+    <string name="pref_KRW_value" translatable="false">KRW</string>
+    <string name="pref_XDR_value" translatable="false">XDR</string>
+    <string name="pref_LKR_value" translatable="false">LKR</string>
+    <string name="pref_SDG_value" translatable="false">SDG</string>
+    <string name="pref_SRD_value" translatable="false">SRD</string>
+    <string name="pref_SZL_value" translatable="false">SZL</string>
+    <string name="pref_SEK_value" translatable="false">SEK</string>
+    <string name="pref_CHF_value" translatable="false">CHF</string>
+    <string name="pref_SYP_value" translatable="false">SYP</string>
+    <string name="pref_TMT_value" translatable="false">TMT</string>
+    <string name="pref_TZS_value" translatable="false">TZS</string>
+    <string name="pref_THB_value" translatable="false">THB</string>
+    <string name="pref_TOP_value" translatable="false">TOP</string>
+    <string name="pref_TTD_value" translatable="false">TTD</string>
+    <string name="pref_TND_value" translatable="false">TND</string>
+    <string name="pref_TRY_value" translatable="false">TRY</string>
+    <string name="pref_UGX_value" translatable="false">UGX</string>
+    <string name="pref_UAH_value" translatable="false">UAH</string>
+    <string name="pref_AED_value" translatable="false">AED</string>
+    <string name="pref_USD_value" translatable="false">USD</string>
+    <string name="pref_UYU_value" translatable="false">UYU</string>
+    <string name="pref_UZS_value" translatable="false">UZS</string>
+    <string name="pref_VUV_value" translatable="false">VUV</string>
+    <string name="pref_VEF_value" translatable="false">VEF</string>
+    <string name="pref_VND_value" translatable="false">VND</string>
+    <string name="pref_YER_value" translatable="false">YER</string>
+    <string name="pref_ZMK_value" translatable="false">ZMK</string>
+    <string name="pref_ZWL_value" translatable="false">ZWL</string>
+
+    <!-- Decimals -->
+    <string name="pref_decimals_label">Decimals</string>
+    <string name="pref_decimals_key">decimals</string>
+
+    <string name="pref_decimals_2_lable">2</string>
+    <string name="pref_decimals_3_lable">3</string>
+    <string name="pref_decimals_4_lable">4</string>
+
+    <string name="pref_decimals_2_value" translatable="false">2</string>
+    <string name="pref_decimals_3_value" translatable="false">3</string>
+    <string name="pref_decimals_4_value" translatable="false">4</string>
+
+    <!-- Share Action Provider -->
+
+    <string name="action_share">Share</string>
+
+    <!-- Navigation Drawer  -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_choose_currency">Currency</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_converter">Converter</string>
+    <string name="title_activity_history">History</string>
+</resources>
